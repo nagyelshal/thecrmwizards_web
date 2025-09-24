@@ -51,7 +51,7 @@ export function Navigation() {
             >
               <div className="w-10 h-10 group-hover:scale-105 transition-all duration-300">
                 <img 
-                  src="/images/logo-icon.svg" 
+                  src={`${import.meta.env.BASE_URL}images/logo-icon.svg`}
                   alt="The CRM Wizards" 
                   className="w-full h-full"
                 />

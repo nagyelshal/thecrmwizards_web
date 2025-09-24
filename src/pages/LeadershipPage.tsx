@@ -81,7 +81,7 @@ export function LeadershipPage() {
                         {/* Team photo */}
                         <div className="w-48 h-48 mx-auto mb-6 rounded-2xl overflow-hidden shadow-lg">
                           <img 
-                            src={`/images/team/${member.name.toLowerCase().replace(' ', '-')}.svg`}
+                            src={`${import.meta.env.BASE_URL}images/team/${member.name.toLowerCase().replace(' ', '-')}.svg`}
                             alt={member.name}
                             className="w-full h-full object-cover"
                           />

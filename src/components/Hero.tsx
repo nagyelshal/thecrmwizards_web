@@ -112,7 +112,7 @@ export function Hero({ title, subtitle, primaryCta, secondaryCta }: HeroProps) {
               {/* Main Salesforce illustration */}
               <div className="card card-hover overflow-hidden shadow-large">
                 <img 
-                  src="/images/salesforce-dashboard.svg" 
+                  src={`${import.meta.env.BASE_URL}images/salesforce-dashboard.svg`}
                   alt="Salesforce Implementation Dashboard" 
                   className="w-full h-auto"
                 />
