@@ -1,4 +1,4 @@
-import { ArrowRight, Cpu, Cloud, Zap, Database, Headphones, GraduationCap } from 'lucide-react';
+import { ArrowRight, Cloud, Zap, Database, GraduationCap } from 'lucide-react';
 import { Button } from './ui/Button';
 
 interface Service {
@@ -12,75 +12,51 @@ interface Service {
 const services: Service[] = [
   {
     icon: <Cloud className="h-8 w-8" />,
-    title: "Salesforce Architecture & Delivery",
-    description: "End-to-end Salesforce implementations across Sales, Service, Experience, and Platform clouds.",
+    title: "Implementation",
+    description: "Complete Salesforce implementations tailored to your business needs, from initial setup to go-live.",
     features: [
-      "Sales Cloud optimization",
-      "Service Cloud implementation", 
+      "Sales Cloud setup",
+      "Service Cloud configuration", 
       "Experience Cloud portals",
-      "Custom platform development"
+      "Data migration & integration"
     ],
-    href: "/services/salesforce-architecture"
-  },
-  {
-    icon: <Cpu className="h-8 w-8" />,
-    title: "AI Voice Receptionist",
-    description: "Intelligent voice AI systems integrated with Salesforce for automated lead capture and customer service.",
-    features: [
-      "FreeSWITCH/Verizon integration",
-      "TTS/STT processing",
-      "Automated lead creation",
-      "Call routing & analytics"
-    ],
-    href: "/services/ai-receptionist"
+    href: "/services"
   },
   {
     icon: <Zap className="h-8 w-8" />,
-    title: "Integrations & Telephony", 
-    description: "Seamless connections between Salesforce and your existing systems, including PBX and telephony solutions.",
+    title: "Optimization",
+    description: "Enhance your existing Salesforce org with performance improvements and workflow automation.",
     features: [
-      "SIP/PBX integration",
-      "S3 call recording",
-      "Webhook automation",
-      "Middleware development"
+      "Process automation",
+      "Workflow optimization",
+      "Performance tuning",
+      "User experience enhancement"
     ],
-    href: "/services/integrations"
+    href: "/services"
   },
   {
     icon: <Database className="h-8 w-8" />,
-    title: "Data & Analytics",
-    description: "Transform your data into actionable insights with advanced analytics and reporting solutions.",
+    title: "Custom Development",
+    description: "Bespoke Salesforce solutions including custom objects, applications, and integrations.",
     features: [
-      "Data pipeline automation",
-      "Customer data platforms", 
-      "Advanced dashboards",
-      "Performance analytics"
+      "Custom objects & fields",
+      "Apex development",
+      "Lightning components",
+      "Third-party integrations"
     ],
-    href: "/services/data-analytics"
-  },
-  {
-    icon: <Headphones className="h-8 w-8" />,
-    title: "24/7 Support & Maintenance",
-    description: "Ongoing support to ensure your Salesforce instance runs smoothly and evolves with your business.",
-    features: [
-      "Proactive monitoring",
-      "Issue resolution",
-      "Performance optimization",
-      "Security updates"
-    ],
-    href: "/services/support"
+    href: "/services"
   },
   {
     icon: <GraduationCap className="h-8 w-8" />,
-    title: "Training & Enablement",
-    description: "Comprehensive training programs to empower your team and maximize Salesforce adoption.",
+    title: "Training and Support",
+    description: "Comprehensive training programs and ongoing support to empower your team and maximize Salesforce adoption.",
     features: [
-      "Admin training programs",
-      "Super-user certification",
-      "Custom workshops",
-      "Best practice guidance"
+      "User training programs",
+      "Administrator certification",
+      "Ongoing support services",
+      "Best practices guidance"
     ],
-    href: "/services/training"
+    href: "/services"
   }
 ];
 

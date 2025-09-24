@@ -16,34 +16,34 @@ interface TeamMember {
 
 const teamMembers: TeamMember[] = [
   {
-    name: "Michael Rodriguez",
-    title: "Founder & Lead Architect",
-    bio: "With over 12 years of Salesforce experience, Michael has led digital transformations for Fortune 500 companies and scaling startups alike. His expertise spans the entire Salesforce ecosystem, from complex integrations to AI-powered automation solutions. Prior to founding The CRM Wizards, he served as Principal Salesforce Architect at several consulting firms, delivering projects worth over $50M in value.",
+    name: "Eli Kiedrowski",
+    title: "Founder & Principal Architect",
+    bio: "Eli is the founder and principal architect of The CRM Wizards, bringing extensive experience in Salesforce consulting and implementation. With a passion for helping businesses harness the full potential of the Salesforce platform, Eli leads our team in delivering tailored solutions that drive growth and enhance customer experiences.",
     certifications: [
-      "Salesforce Certified Technical Architect",
-      "Platform Developer II",
-      "Application Architect", 
-      "Integration Architecture Designer",
-      "Data Architecture Designer"
+      "Salesforce Certified Administrator",
+      "Platform App Builder",
+      "Sales Cloud Consultant",
+      "Service Cloud Consultant",
+      "Experience Cloud Consultant"
     ],
-    experience: "12+ years",
-    linkedIn: "https://linkedin.com/in/michael-rodriguez-sf",
-    email: "michael@thecrmwizards.com"
+    experience: "10+ years",
+    linkedIn: "https://www.linkedin.com/in/elikiedrowski/",
+    email: "eli@thecrmwizards.com"
   },
   {
-    name: "Sarah Chen",
-    title: "Head of AI & Integration Solutions",
-    bio: "Sarah brings a unique blend of AI expertise and enterprise integration knowledge to every project. With a background in machine learning and 8 years of Salesforce development, she specializes in building intelligent automation systems that connect seamlessly with existing business processes. Sarah holds a Master's in Computer Science and has published research on conversational AI applications in enterprise environments.",
+    name: "Nagy Elshal",
+    title: "Technical Architect & Development Manager",
+    bio: "Nagy serves as our Technical Architect and Development Manager, specializing in complex Salesforce implementations and custom development. His expertise in both Salesforce platform development and system integrations ensures our clients receive robust, scalable solutions that meet their unique business requirements.",
     certifications: [
-      "Salesforce Certified Platform Developer II",
-      "Einstein Analytics Consultant",
+      "Salesforce Certified Platform Developer I",
+      "Platform Developer II",
       "Integration Architecture Designer",
-      "AWS Solutions Architect",
-      "Google Cloud AI Engineer"
+      "Platform App Builder",
+      "Administrator"
     ],
     experience: "8+ years",
-    linkedIn: "https://linkedin.com/in/sarah-chen-ai",
-    email: "sarah@thecrmwizards.com"
+    linkedIn: "https://www.linkedin.com/in/nagyelshal/",
+    email: "nagy@thecrmwizards.com"
   }
 ];
 

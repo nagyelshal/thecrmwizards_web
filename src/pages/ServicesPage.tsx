@@ -16,33 +16,63 @@ interface Service {
 const services: Service[] = [
   {
     icon: <Cloud className="h-12 w-12" />,
-    title: "Salesforce Architecture & Delivery",
-    description: "End-to-end Salesforce implementations across Sales, Service, Experience, and Platform clouds.",
-    longDescription: "Transform your business with comprehensive Salesforce solutions. From initial strategy to full implementation and ongoing optimization, we deliver Salesforce projects that your team actually adopts and your customers love.",
+    title: "Implementation",
+    description: "Complete Salesforce implementations tailored to your business needs, from initial setup to go-live.",
+    longDescription: "Our expert consultants work closely with your team to design and implement Salesforce solutions that align with your business processes. We ensure smooth data migration, proper configuration, and successful user adoption.",
     features: [
-      "Sales Cloud optimization and automation",
-      "Service Cloud implementation and customization", 
-      "Experience Cloud portals and communities",
-      "Custom platform development and integrations",
+      "Sales Cloud setup and configuration",
+      "Service Cloud implementation", 
+      "Experience Cloud portals",
       "Data migration and cleansing",
-      "User training and adoption strategies"
+      "Custom object creation",
+      "Workflow automation setup"
     ],
-    href: "/services/salesforce-architecture"
+    href: "/services"
+  },
+  {
+    icon: <Cloud className="h-12 w-12" />,
+    title: "Optimization",
+    description: "Enhance your existing Salesforce org with performance improvements and workflow automation.",
+    longDescription: "Maximize the value of your existing Salesforce investment. We analyze your current setup, identify improvement opportunities, and implement optimizations that increase efficiency and user satisfaction.",
+    features: [
+      "Process automation enhancement",
+      "Workflow optimization",
+      "Performance tuning and monitoring",
+      "User experience improvements",
+      "Data quality enhancements",
+      "Security and compliance updates"
+    ],
+    href: "/services"
   },
   {
     icon: <Cpu className="h-12 w-12" />,
-    title: "AI Voice Receptionist",
-    description: "Intelligent voice AI systems integrated with Salesforce for automated lead capture and customer service.",
-    longDescription: "Never miss a lead or customer inquiry again. Our AI Voice Receptionist seamlessly integrates with your Salesforce org to capture, qualify, and route calls automatically while providing a professional experience for your callers.",
+    title: "Custom Development",
+    description: "Bespoke Salesforce solutions including custom objects, applications, and integrations.",
+    longDescription: "When out-of-the-box functionality isn't enough, our certified developers create custom solutions tailored to your unique business requirements using Apex, Lightning, and the Salesforce platform.",
     features: [
-      "FreeSWITCH/Verizon integration for reliable telephony",
-      "Real-time Salesforce lead creation and updates",
-      "Natural language processing for intelligent conversations",
-      "Appointment scheduling and calendar integration",
-      "Custom call routing and escalation rules",
-      "Comprehensive analytics and reporting"
+      "Custom objects and fields development",
+      "Apex triggers and classes",
+      "Lightning Web Components",
+      "Third-party system integrations",
+      "Custom applications",
+      "API development and management"
     ],
-    href: "/services/ai-receptionist"
+    href: "/services"
+  },
+  {
+    icon: <Cloud className="h-12 w-12" />,
+    title: "Training and Support",
+    description: "Comprehensive training programs and ongoing support to empower your team and maximize Salesforce adoption.",
+    longDescription: "Ensure your team gets the most out of Salesforce with our comprehensive training programs and ongoing support services. From basic user training to advanced administrator certification.",
+    features: [
+      "End-user training programs",
+      "Administrator certification prep",
+      "Ongoing technical support",
+      "Best practices consultation",
+      "Documentation and resources",
+      "Change management guidance"
+    ],
+    href: "/services"
   }
 ];
 
