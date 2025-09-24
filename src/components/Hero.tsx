@@ -1,5 +1,5 @@
 
-import { ArrowRight, CheckCircle, Zap, Star, TrendingUp, Award } from 'lucide-react';
+import { ArrowRight, CheckCircle, Zap, Star, Award } from 'lucide-react';
 
 interface HeroProps {
   title: string;
@@ -109,43 +109,13 @@ export function Hero({ title, subtitle, primaryCta, secondaryCta }: HeroProps) {
           {/* Visual Element */}
           <div className="relative animate-slide-in-right" style={{ animationDelay: '0.8s' }}>
             <div className="relative">
-              {/* Main card */}
-              <div className="card card-hover p-8 bg-gradient-to-br from-white to-gray-50 shadow-large">
-                <div className="space-y-6">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-3">
-                      <div className="w-12 h-12 rounded-xl bg-primary-500 flex items-center justify-center">
-                        <TrendingUp className="h-6 w-6 text-white" />
-                      </div>
-                      <div>
-                        <div className="font-semibold text-gray-900">Salesforce ROI</div>
-                        <div className="text-sm text-gray-500">Client Results</div>
-                      </div>
-                    </div>
-                    <div className="text-2xl font-bold text-green-600">+247%</div>
-                  </div>
-                  
-                  <div className="space-y-3">
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm text-gray-600">Lead Conversion</span>
-                      <div className="w-24 h-2 bg-gray-200 rounded-full overflow-hidden">
-                        <div className="h-full w-4/5 bg-primary-500 rounded-full"></div>
-                      </div>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm text-gray-600">Process Automation</span>
-                      <div className="w-24 h-2 bg-gray-200 rounded-full overflow-hidden">
-                        <div className="h-full w-5/6 bg-accent-500 rounded-full"></div>
-                      </div>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm text-gray-600">Team Adoption</span>
-                      <div className="w-24 h-2 bg-gray-200 rounded-full overflow-hidden">
-                        <div className="h-full w-3/4 bg-green-500 rounded-full"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              {/* Main Salesforce illustration */}
+              <div className="card card-hover overflow-hidden shadow-large">
+                <img 
+                  src="/images/salesforce-dashboard.svg" 
+                  alt="Salesforce Implementation Dashboard" 
+                  className="w-full h-auto"
+                />
               </div>
               
               {/* Floating accent cards */}

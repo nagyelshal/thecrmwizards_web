@@ -78,11 +78,13 @@ export function LeadershipPage() {
                     {/* Photo & Contact */}
                     <div className="lg:col-span-1">
                       <div className="text-center">
-                        {/* Placeholder for photo */}
-                        <div className="w-48 h-48 mx-auto mb-6 bg-gradient-to-br from-primary-100 to-accent-100 rounded-2xl flex items-center justify-center">
-                          <div className="text-4xl font-bold text-primary-600">
-                            {member.name.split(' ').map(n => n[0]).join('')}
-                          </div>
+                        {/* Team photo */}
+                        <div className="w-48 h-48 mx-auto mb-6 rounded-2xl overflow-hidden shadow-lg">
+                          <img 
+                            src={`/images/team/${member.name.toLowerCase().replace(' ', '-')}.svg`}
+                            alt={member.name}
+                            className="w-full h-full object-cover"
+                          />
                         </div>
                         
                         <h2 className="text-2xl font-bold text-gray-900 mb-2">

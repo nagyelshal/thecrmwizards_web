@@ -1,0 +1,26 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#eab308;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ca8a04;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="150" cy="150" r="150" fill="url(#bgGradient2)"/>
+  
+  <!-- Professional avatar -->
+  <circle cx="150" cy="120" r="45" fill="white" opacity="0.9"/>
+  <path d="M120 200 Q150 180 180 200 L180 250 Q150 270 120 250 Z" fill="white" opacity="0.9"/>
+  
+  <!-- Facial features -->
+  <circle cx="140" cy="110" r="3" fill="#334155"/>
+  <circle cx="160" cy="110" r="3" fill="#334155"/>
+  <path d="M145 125 Q150 130 155 125" stroke="#334155" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Hair -->
+  <path d="M110 95 Q150 80 190 95 Q185 105 175 100 Q165 95 150 100 Q135 95 125 100 Q115 105 110 95" fill="#334155" opacity="0.8"/>
+  
+  <!-- Initials -->
+  <text x="150" y="240" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" font-weight="600" fill="white">NE</text>
+</svg>

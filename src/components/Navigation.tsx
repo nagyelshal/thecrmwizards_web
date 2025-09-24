@@ -49,8 +49,12 @@ export function Navigation() {
               to="/" 
               className="group flex items-center space-x-3"
             >
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary-500 to-primary-700 flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">
-                <span className="text-white font-bold text-lg">W</span>
+              <div className="w-10 h-10 group-hover:scale-105 transition-all duration-300">
+                <img 
+                  src="/images/logo-icon.svg" 
+                  alt="The CRM Wizards" 
+                  className="w-full h-full"
+                />
               </div>
               <div className="flex flex-col">
                 <span className="font-display text-xl lg:text-2xl font-bold gradient-text">
