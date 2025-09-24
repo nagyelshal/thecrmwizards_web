@@ -9,7 +9,7 @@ interface NavItem {
 }
 
 const navItems: NavItem[] = [
-  { label: 'Services', href: '/#services' },
+  { label: 'Services', href: '/services' },
   { label: 'Case Studies', href: '/case-studies' },
   { label: 'Leadership', href: '/leadership' },
   { label: 'Insights', href: '/insights' },
@@ -33,23 +33,13 @@ export function Navigation() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
-              item.href.startsWith('/#') ? (
-                <a
-                  key={item.href}
-                  href={item.href}
-                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
-                >
-                  {item.label}
-                </a>
-              ) : (
-                <Link
-                  key={item.href}
-                  to={item.href}
-                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
-                >
-                  {item.label}
-                </Link>
-              )
+              <Link
+                key={item.href}
+                to={item.href}
+                className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200"
+              >
+                {item.label}
+              </Link>
             ))}
             <Button size="sm">
               Book Consultation
@@ -72,25 +62,14 @@ export function Navigation() {
           <div className="md:hidden py-4 border-t">
             <div className="flex flex-col space-y-4">
               {navItems.map((item) => (
-                item.href.startsWith('/#') ? (
-                  <a
-                    key={item.href}
-                    href={item.href}
-                    className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200 py-2"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    {item.label}
-                  </a>
-                ) : (
-                  <Link
-                    key={item.href}
-                    to={item.href}
-                    className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200 py-2"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    {item.label}
-                  </Link>
-                )
+                <Link
+                  key={item.href}
+                  to={item.href}
+                  className="text-gray-700 hover:text-primary-600 font-medium transition-colors duration-200 py-2"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.label}
+                </Link>
               ))}
               <Button size="sm" className="w-full mt-4">
                 Book Consultation
